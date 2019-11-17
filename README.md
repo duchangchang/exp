@@ -50,42 +50,64 @@
 核心代码：中的语句
 
 //异常处理
+				
 				try{
  catch(Exception e){//
-		        	System.err.println("发生异常："+e.toString());
+
+System.err.println("发生异常："+e.toString());
+
 		        	e.printStackTrace();
 		        }
+			
 				countString(str,"一");
 		       }
 		       
 //统计“一”的字数
 
 private static void countString(String str, String string) {
+
 				// TODO Auto-generated method stub
+				
 				int count=0;
+				
 				while(str.indexOf(string)!=-1){
-					str=str.substring(str.indexOf(string)+1, str.length());
+				
+			str=str.substring(str.indexOf(string)+1, str.length());
+			
 					count++;
 				}
+				
 				System.out.print(string+"出现的次数为："+count);
+				
 				
 //判断语句
 if((i+1)%7==0&&(i+1)%2==1||(i+1)%14==0&&(i+1)%2==0){
+
 		        		if((i+1)%7==0&&(i+1)%2==1)
+					
 		        		bs.append(",");
+					
 		        	    else
+				    
 		        	    bs.append("。\n");
 				    
+				    
 //string字符串
+
 public static void main (String[] args) {	
+
 String str="汉皇重色思倾国御宇多年求不得杨.......";
+
 for(int i=0;i<c.length;i++){
+
 		        	bs.append(c[i]);
+				
 System.out.print(bs.toString()); 
 
 注释：
 
 try{
+
  catch(Exception e){  异常捕获
  
 StringBuffer  字符串变量
